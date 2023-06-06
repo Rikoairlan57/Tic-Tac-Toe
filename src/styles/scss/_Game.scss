@@ -1,0 +1,26 @@
+.game {
+  width: 100%;
+  max-width: 70rem;
+  border: var(--border);
+  border-radius: var(--border-radius);
+
+  @media screen and (max-width: 720px) {
+    max-width: 90vw;
+  }
+
+  .restart-game {
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    font-weight: bold;
+    color: var(--primary-text);
+    transition: 200ms ease-out;
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+
+    &:hover {
+      background-color: white;
+      color: var(--secondary-text);
+    }
+  }
+}

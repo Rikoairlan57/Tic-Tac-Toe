@@ -1,0 +1,20 @@
+.footer {
+  display: grid;
+  place-content: center;
+
+  p {
+    font-size: 1.8rem;
+    color: var(--primary-text);
+
+    a {
+      text-decoration: underline transparent;
+      text-underline-position: under;
+      transition: 200ms ease-out;
+
+      &:hover {
+        color: crimson;
+        text-decoration-color: lightcoral;
+      }
+    }
+  }
+}
